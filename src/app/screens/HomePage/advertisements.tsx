@@ -5,7 +5,7 @@ export function Advertisements() {
   return (
     <div className="ads_restaurant_frame">
       <video
-        className={"ads_video"}
+        className="ads_video"
         autoPlay={true}
         loop
         muted

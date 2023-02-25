@@ -189,7 +189,7 @@
   background: #0c0e12;
   display: flex;
   box-shadow: 0px -8px 90px rgb(215 215 255);
-  transform: scale(1, 5);
+  transform: scale(1.5);
   overflow: hidden;
 }
 
