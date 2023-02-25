@@ -192,3 +192,266 @@
   transform: scale(1, 5);
   overflow: hidden;
 }
+
+.homepage .events_frame {
+  margin-top: 45px;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  overflow: hidden;
+}
+
+.homepage .events_main {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage .events_main .events_text {
+  position: relative;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage .events_main .prev_next_frame {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 24px;
+
+  margin-top: 19px;
+  margin-bottom: 40px;
+  width: 100%;
+}
+
+.homepage .dot_frame_paginaton {
+  position: relative;
+  width: auto;
+  display: flex;
+}
+
+.homepage .events_main .events_info_frame {
+  position: relative;
+  width: 579px;
+  height: 447px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage .events_img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  border-radius: 10px;
+  background-size: cover;
+}
+
+.homepage .events_desc {
+  position: absolute;
+  padding: 10px;
+  display: flex;
+  width: 90%;
+  height: auto;
+  bottom: 5px;
+  background: #fff;
+  box-shadow: 0 40px 30px rgba(25, 25, 46, 0.04);
+  border-radius: 8px;
+}
+
+.homepage .events_desc .events_bott {
+  width: 97%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.homepage .events_desc .events_bott .bott_left {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage .bott_left .event_title_speaker {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.homepage .event_title_speaker .event_organizator {
+  display: flex;
+  align-items: flex-start;
+}
+
+.homepage .event_organizator .spec_text_author {
+  margin-top: -6px;
+  font-family: "GT Walsheim Pro";
+  font-style: normal;
+  line-height: 34px;
+  color: #140342;
+}
+
+.homepage .bott_left .text_desc {
+  font-family: "GT Walsheim Pro";
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 26px;
+  color: #4f547b;
+}
+
+.homepage .bott_left .bott_info {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  width: 100%;
+  height: 16px;
+}
+
+.homepage .bott_info .bott_info_main {
+  margin-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: auto;
+  height: 100%;
+  font-family: "GT Walsheim Pro";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #4f547b;
+}
+
+.homepage .swiper-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.homepage .swiper-pagination-bullet {
+  margin-right: 5px;
+  width: 8px;
+  height: 8px;
+  text-align: center;
+  opacity: 1;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.homepage .swiper-pagination-bullet-active {
+  background: #007aff;
+  border-radius: 50%;
+}
+
+.homepage .top_article_frame {
+  width: 100%;
+}
+
+.homepage .top_article_frame .events_text {
+  position: relative;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.homepage .top_article_frame .article_text {
+  text-align: center;
+  margin-top: 32px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 29px;
+  line-height: 44px;
+
+  color: #ffffff;
+}
+
+.homepage .top_article_frame .article_box {
+  width: 567.99px;
+  height: 150px;
+  background: #ffffff;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.25);
+  border-radius: 0px 20px 20px 0px;
+  margin-top: 18px;
+  display: flex;
+  flex-direction: row;
+}
+
+.homepage .top_article_frame .article_box_img {
+  width: 150px;
+  height: 150px;
+}
+
+.homepage .top_article_frame .article_name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+  padding-top: 6px;
+  margin-left: 8px;
+}
+
+.homepage .article_cook {
+  width: 35px;
+  height: 35px;
+}
+
+.homepage .top_article_frame .article_desc {
+  width: 282px;
+  height: 59px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #e3c08d;
+  margin-top: 6px;
+}
+
+.homepage .celebrities_box {
+  position: relative;
+  margin-top: 30px;
+  width: 380px;
+  height: 350px;
+  background: #ffffff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.homepage .celebrities_box2 {
+  margin-top: 60px;
+}
+
+.homepage .celebrities_box_img {
+  width: 300px;
+  height: 300px;
+}
+
+.homepage .celebrities_box_text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 27px;
+  margin-bottom: 11px;
+  color: #000000;
+}
+.homepage .tofix {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
