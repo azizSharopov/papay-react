@@ -43,20 +43,21 @@ export function Events() {
   return (
     <div className={"events_frame"}>
       <Container sx={{ overflow: "hidden" }}>
-        <Stack className={"events_main"}>
-          <Box className={"events_text"}>
-            <span className={"category_title"}>Hodisalar</span>
+        <Stack className="events_main">
+          <Box className="events_text">
+            <span className="category_title">Hodisalar</span>
           </Box>
-          <Box className={"prev_next_frame"}>
+          <Box className="prev_next_frame" sx={{ gap: "15px" }}>
             <img
-              src={"/icons/arrow-right.svg"}
-              className={"swiper-button-prev"}
+              src="/icons/arrow-right.svg"
+              className={"swiper_button_prev"}
+              alt=""
             />
-            <div className={"dot_frame_pagination swiper-pagination"}></div>
+            <div className={"dot_frame_paginaton  swiper-pagination"}></div>
             <img
-              src={"/icons/arrow-right.svg"}
-              className={"swiper-button-prev"}
-              style={{ transform: "rotate(-180deg)" }}
+              src="/icons/arrow-right1.svg"
+              className={"swiper_button_next"}
+              alt=""
             />
           </Box>
           <Swiper
@@ -65,15 +66,15 @@ export function Events() {
             centeredSlides={true}
             spaceBetween={30}
             navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
+              nextEl: ".swiper_button_next",
+              prevEl: ".swiper_button_prev",
             }}
             pagination={{
               el: ".swiper-pagination",
               clickable: true,
             }}
             autoplay={{
-              delay: 2000,
+              delay: 1000,
               disableOnInteraction: true,
             }}
           >

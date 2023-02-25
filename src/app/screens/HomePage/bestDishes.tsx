@@ -19,7 +19,10 @@ export function BestDishes() {
                 <div className={"dish_sale"}>normal size</div>
                 <div className={"view_btn"}>
                   Batafsil ko'rish
-                  <img src={""} style={{ marginLeft: "9px" }} />
+                  <img
+                    src={"/icons/arrow-right1.svg"}
+                    style={{ marginLeft: "9px" }}
+                  />
                 </div>
               </Stack>
               <Stack className={"dish_desc"}>
@@ -40,7 +43,10 @@ export function BestDishes() {
                 <div className={"dish_sale"}>normal size</div>
                 <div className={"view_btn"}>
                   Batafsil ko'rish
-                  <img src={""} style={{ marginLeft: "9px" }} />
+                  <img
+                    src={"/icons/arrow-right1.svg"}
+                    style={{ marginLeft: "9px" }}
+                  />
                 </div>
               </Stack>
               <Stack className={"dish_desc"}>
@@ -61,7 +67,10 @@ export function BestDishes() {
                 <div className={"dish_sale"}>normal size</div>
                 <div className={"view_btn"}>
                   Batafsil ko'rish
-                  <img src={""} style={{ marginLeft: "9px" }} />
+                  <img
+                    src={"/icons/arrow-right1.svg"}
+                    style={{ marginLeft: "9px" }}
+                  />
                 </div>
               </Stack>
               <Stack className={"dish_desc"}>
@@ -82,7 +91,10 @@ export function BestDishes() {
                 <div className={"dish_sale"}>normal size</div>
                 <div className={"view_btn"}>
                   Batafsil ko'rish
-                  <img src={""} style={{ marginLeft: "9px" }} />
+                  <img
+                    src={"/icons/arrow-right1.svg"}
+                    style={{ marginLeft: "9px" }}
+                  />
                 </div>
               </Stack>
               <Stack className={"dish_desc"}>
