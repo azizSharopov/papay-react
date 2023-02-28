@@ -27,7 +27,7 @@ export function TopRestaurants() {
                 sx={{
                   minHeight: 430,
                   width: 325,
-                  mr: "35px",
+                  mr: "25px",
                   cursor: "pointer",
                 }}
               >
@@ -108,7 +108,7 @@ export function TopRestaurants() {
                 sx={{
                   minHeight: 430,
                   width: 325,
-                  mr: "35px",
+                  mr: "25px",
                   cursor: "pointer",
                 }}
               >
@@ -189,7 +189,7 @@ export function TopRestaurants() {
                 sx={{
                   minHeight: 430,
                   width: 325,
-                  mr: "35px",
+                  mr: "25px",
                   cursor: "pointer",
                 }}
               >
@@ -270,7 +270,7 @@ export function TopRestaurants() {
                 sx={{
                   minHeight: 430,
                   width: 325,
-                  mr: "35px",
+                  mr: "25px",
                   cursor: "pointer",
                 }}
               >
