@@ -18,75 +18,83 @@ export function Recommendations() {
               <Box className="article_text">Ko’p ko’rilgan</Box>
               <Stack className="article_box">
                 <img
-                  src="/restaurant/dish.jpg"
+                  src="/restaurant/go'sht.jpeg"
                   className="article_box_img"
                   alt=""
                 />
                 <Stack flexDirection={"column"} sx={{ mt: "14px", ml: "10px" }}>
                   <Stack className="tofix" flexDirection={"row"}>
                     <img
-                      src="/restaurant/dish.jpg"
+                      src="/community/maska.jpeg"
                       className="article_cook"
                       alt=""
                     />
-                    <Box className="article_name">guli</Box>
+                    <Box className="article_name">Guli Asadova</Box>
                   </Stack>
-                  <Box className="article_desc">rasmlarni o'zgartiraman</Box>
+                  <Box className="article_desc">
+                    Biz ko'p go'sht yeyabmizmi?
+                  </Box>
                 </Stack>
               </Stack>
               <Stack className="article_box">
                 <img
-                  src="/restaurant/dish.jpg"
+                  src="/restaurant/5600.jpeg"
                   className="article_box_img"
                   alt=""
                 />
                 <Stack flexDirection={"column"} sx={{ mt: "14px", ml: "10px" }}>
                   <Stack className="tofix" flexDirection={"row"}>
                     <img
-                      src="/restaurant/dish.jpg"
+                      src="/community/maska.jpeg"
                       className="article_cook"
                       alt=""
                     />
-                    <Box className="article_name">dili</Box>
+                    <Box className="article_name">Muxim xabarlar</Box>
                   </Stack>
-                  <Box className="article_desc">rasmlarni o'zgartiraman</Box>
+                  <Box className="article_desc">
+                    Siz bir kunda qancha topasiz?
+                  </Box>
                 </Stack>
               </Stack>
               <Box className="article_text">Ko’p yoqtirilgan</Box>
               <Stack className="article_box">
                 <img
-                  src="/restaurant/dish.jpg"
+                  src="/restaurant/bog'cha.jpeg"
                   className="article_box_img"
                   alt=""
                 />
                 <Stack flexDirection={"column"} sx={{ mt: "14px", ml: "10px" }}>
                   <Stack className="tofix" flexDirection={"row"}>
                     <img
-                      src="/restaurant/dish.jpg"
+                      src="/community/maska.jpeg"
                       className="article_cook"
                       alt=""
                     />
-                    <Box className="article_name">nilu</Box>
+                    <Box className="article_name">Sevara Gulyamova</Box>
                   </Stack>
-                  <Box className="article_desc">rasmlarni o'zgartiraman</Box>
+                  <Box className="article_desc">
+                    Bog'cha xodimlarining oyligi qancha?
+                  </Box>
                 </Stack>
               </Stack>
               <Stack className="article_box" sx={{ mb: "111px" }}>
                 <img
-                  src="/restaurant/dish.jpg"
+                  src="/restaurant/gentra.jpeg"
                   className="article_box_img"
                   alt=""
                 />
                 <Stack flexDirection={"column"} sx={{ mt: "14px", ml: "10px" }}>
                   <Stack className="tofix" flexDirection={"row"}>
                     <img
-                      src="/restaurant/dish.jpg"
+                      src="/community/maska.jpeg"
                       className="article_cook"
                       alt=""
                     />
-                    <Box className="article_name">James</Box>
+                    <Box className="article_name">Carselon</Box>
                   </Stack>
-                  <Box className="article_desc">rasmlarni o'zgartiraman</Box>
+                  <Box className="article_desc">
+                    Endi moshin olish, sotish juda ham qulay
+                  </Box>
                 </Stack>
               </Stack>
             </Stack>
@@ -95,7 +103,7 @@ export function Recommendations() {
               <Stack className="celebrities_box">
                 <Box className="celebrities_box_text">Mashhurlar etirofi</Box>
                 <img
-                  src="/auth/Turkish.jpg"
+                  src="/auth/ulug.jpeg"
                   className="celebrities_box_img"
                   alt=""
                 />
@@ -103,7 +111,7 @@ export function Recommendations() {
               <Stack className="celebrities_box celebrities_box2">
                 <Box className="celebrities_box_text">Mashhurlar etirofi</Box>
                 <img
-                  src="/auth/Turkish.jpg"
+                  src="/auth/raykhon1.jpeg"
                   className="celebrities_box_img"
                   alt=""
                 />
