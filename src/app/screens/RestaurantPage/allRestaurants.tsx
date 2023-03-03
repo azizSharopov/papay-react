@@ -176,7 +176,12 @@ export function AllRestaurants() {
                 />
               )}
             />
-            <img className="line_img" src="/icons/line_right.svg" alt="" />
+            <img
+              className="line_img"
+              style={{ transform: "rotate(90deg)" }}
+              src="/icons/line_group.svg"
+              alt=""
+            />
           </Stack>
         </Stack>
       </Container>

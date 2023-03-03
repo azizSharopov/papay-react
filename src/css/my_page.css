@@ -1,0 +1,421 @@
+.my_page {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background: #0b0e11;
+}
+
+.my_page .my_page_frame {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 100%;
+}
+
+.my_page_frame .my_page_left {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 70%;
+}
+
+.my_page .my_page_left .all_article_box {
+  align-items: center;
+  background: #182226;
+  border-radius: 30px;
+  box-shadow: 0 4px 40px rgb(0 0 0 / 25%);
+  display: flex;
+  flex-direction: row;
+  height: 175px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.my_page .my_page_left .all_article_box .all_article_img {
+  width: 155px;
+  height: 155px;
+
+  border-radius: 30px 0px 0px 30px;
+  /* background: url("https://m.media-amazon.com/images/I/51oLuZ9CCrL._AC_UF1000,1000_QL80_.jpg"); */
+  background-size: cover;
+}
+
+.my_page .my_page_left .all_article_box .all_article_container {
+  margin-left: 15px;
+  width: 75%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.my_page .my_page_left .all_article_box .all_article-author_user {
+  margin-left: 10px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.my_page .my_page_left .all_article_box .all_article_title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  color: #e3c08d;
+}
+
+.my_page .my_page_left .all_article_container p {
+  margin-top: 5px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.my_page .menu_content .post_content,
+.my_page_left .menu_content,
+.my_page_left .write_content {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.my_page_left .menu_name {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  display: flex;
+  font-family: Poppins;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+  height: 70px;
+  justify-content: center;
+  width: 100%;
+}
+
+.my_page_frame .my_page_right {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-left: 30px;
+  width: 30%;
+}
+
+.my_page .order_info_box {
+  align-items: center;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: inset 0 4px 4px rgb(0 0 0 / 25%), inset 0 4px 4px rgb(0 0 0 / 25%),
+    inset 0 4px 16px rgb(242 189 87 / 4%);
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  padding: 20px;
+  position: relative;
+  width: 100%;
+}
+
+.my_page .order_info_box .settings_btn {
+  cursor: pointer;
+  position: absolute;
+  right: 19%;
+  top: 6%;
+}
+
+.my_page .order_info_box .order_user_img {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.my_page .order_info_box .order_user_img .order_user_avatar {
+  border-radius: 37px;
+  -webkit-filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  height: 112px;
+  width: 117px;
+}
+
+.my_page .order_info_box .order_user_icon_box {
+  background: hsla(0, 0%, 82%, 0.33);
+  border-radius: 37px;
+  display: flex;
+  height: 37px;
+  padding: 5px;
+  position: absolute;
+  right: 0;
+  top: 81%;
+  width: 37px;
+}
+
+.my_page .order_info_box .order_user_name {
+  color: #08090d;
+  font-family: Commissioner;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  margin-top: 10px;
+}
+
+.my_page .order_info_box .order_user_prof {
+  color: #a1a1a1;
+  font-family: Commissioner;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+}
+
+.my_page .order_info_box .user_media_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 60%;
+}
+
+.my_page .order_info_box .user_media_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 60%;
+}
+
+.my_page .order_info_box .follows,
+.my_page .order_info_box .user_desc {
+  color: #616164;
+  display: flex;
+  font-family: DM Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: center;
+  line-height: 24px;
+  margin-top: 30px;
+  width: 90%;
+}
+
+.my_page .my_page_menu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.my_page_menu .menu_box {
+  align-items: center;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: inset 1px 4px 4px rgb(172 87 87 / 25%),
+    inset 0 4px 4px rgb(0 0 0 / 25%), inset 0 4px 4px rgb(0 0 0 / 25%);
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 10px;
+  padding: 0 20px;
+  width: 98%;
+}
+
+.my_page .menu_box span {
+  color: #000;
+  font-family: Poppins;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px;
+  margin-left: 30px;
+}
+
+.follow_box {
+  align-items: center;
+  background: #182226;
+  border-radius: 30px;
+  box-shadow: 0 4px 40px rgb(0 0 0 / 25%);
+  display: flex;
+  flex-direction: row;
+  height: 175px;
+  margin-top: 15px;
+  width: 100%;
+}
+
+.follow_box .username_text {
+  width: 400px;
+  height: 15px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #ffffff;
+  margin-top: 30px;
+}
+
+.follow_box .name_text {
+  width: 400px;
+  height: 26px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 32px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.follow_box .following_already {
+  position: absolute;
+  margin-bottom: 50px;
+  margin-left: 20px;
+  width: 160px;
+  height: 50px;
+  background: #68c5cb;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+}
+
+.follow_box .follow_btn {
+  box-sizing: border-box;
+  position: absolute;
+  width: 160px;
+  height: 50px;
+  background: #30945e;
+  border: 1px solid #ffffff;
+  box-shadow: 1px 4px 6px rgba(211, 211, 211, 0.25),
+    inset 0px 4px 4px rgba(255, 255, 255, 0.25);
+  border-radius: 26px;
+}
+
+.my_page .my_settings_page .member_media_frame {
+  background: #f7f7f7;
+  border-radius: 5px;
+  display: flex;
+  height: auto;
+  margin-top: 25px;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.my_page .my_settings_page .media_change_box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-left: 20px;
+  position: relative;
+  width: auto;
+}
+
+.my_page .my_settings_page .media_change_box span {
+  color: #140342;
+  font-family: GT Walsheim Pro;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.my_page .my_settings_page .media_change_box p {
+  color: #4f547b;
+  font-family: GT Walsheim Pro;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 10px 0 14px;
+}
+
+.my_page .my_settings_page .up_del_box {
+  align-items: center;
+  background: #cbcbcb;
+  border-radius: 8px;
+  display: flex;
+  height: 37px;
+  justify-content: center;
+  position: relative;
+  width: 37px;
+}
+
+.my_page .my_settings_page .input_frame {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.my_page .my_settings_page .long_input {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.my_page .my_settings_page .spec_label {
+  color: #fff;
+  font-family: "Source Serif Pro";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.my_page .my_settings_page .spec_input,
+.my_page .my_settings_page .spec_textarea {
+  background: #f7f7f7;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 4px 4px rgb(0 0 0 / 25%);
+  color: #4f547b;
+  font-family: GT Walsheim Pro;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-top: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.my_page .my_settings_page .long_input {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 100%;
+}
+
+.my_page .my_settings_page .input_frame {
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  justify-content: space-between;
+  margin-top: 25px;
+  width: 100%;
+}
+
+.my_page .my_settings_page .short_input {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+  width: 49%;
+}
+
+.my_page .my_settings_page .spec_textarea {
+  height: 200px;
+  padding: 20px;
+}
