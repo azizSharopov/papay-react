@@ -23,7 +23,7 @@ export function MemberPosts(prop: any) {
                   width={"35px"}
                   style={{ borderRadius: "50%", backgroundSize: "cover" }}
                 />
-                <span className={"all_article-author_user"}>Aziz Sharopov</span>
+                <span className={"all_article_author_user"}>Aziz Sharopov</span>
               </Box>
               <Box
                 display={"flex"}
@@ -33,7 +33,7 @@ export function MemberPosts(prop: any) {
                 <span className={"all_article_title"}>
                   Restaurantlarga baho
                 </span>
-                <p>Burak ajoyib restaurant</p>
+                <p className={"all_article_desc"}>Burak ajoyib restaurant</p>
               </Box>
               <Box>
                 <Box

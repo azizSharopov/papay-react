@@ -4,7 +4,7 @@ import { Viewer } from "@toast-ui/react-editor";
 import { Box, Stack } from "@mui/material";
 
 const TViewer = (props: any) => {
-  const editor = useRef();
+  const editorRef = useRef();
 
   return (
     <Stack sx={{ background: "white", mt: "30px", borderRadius: "10px" }}>

@@ -69,7 +69,7 @@ export const TuiEditor = (props: any) => {
         height="640px"
         initialEditType="WYSIWYG"
         toolbarItems={[
-          ["heading", "boald", "italic", "strike"],
+          ["heading", "bold", "italic", "strike"],
           ["image", "table", "link"],
           ["ul", "ol", "task"],
         ]}

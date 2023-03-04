@@ -8,7 +8,7 @@ export function MySettings(props: any) {
     <Stack className={"my_settings_page"}>
       <Box className={"member_media_frame"}>
         <img
-          src={"/auth/raykhon1.jpeg"}
+          src={"/auth/Ayden.jpg"}
           className={"mb_image"}
           style={{ borderRadius: "50%" }}
           width={"100px"}
@@ -31,7 +31,7 @@ export function MySettings(props: any) {
           <input
             className={"spec_input mb_nick"}
             type="text"
-            placeholder="Ismoilov Akmal"
+            placeholder="Sharopov Aziz"
             name="mb_nick"
           />
         </div>
@@ -46,8 +46,6 @@ export function MySettings(props: any) {
             name="mb_phone"
           />
         </div>
-      </Box>
-      <Box className={"input_frame"}>
         <div className={"short_input"}>
           <label className={"spec_label"}>Manzil</label>
           <input

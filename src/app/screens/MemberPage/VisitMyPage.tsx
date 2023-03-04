@@ -24,7 +24,7 @@ import TViewer from "../../components/tuiEdetor/TViewer";
 
 export function VisitMyPage(props: any) {
   /** INITIALIZATIONS **/
-  const [value, setValue] = React.useState("6");
+  const [value, setValue] = React.useState("5");
 
   /** HANDLERS **/
   const handleChange = (event: any, newValue: string) => {

@@ -1,11 +1,10 @@
-import { Stack, Box } from "@mui/material";
+import { Stack, Box, Button } from "@mui/material";
 import React, { useEffect, useState } from "react";
 import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
 
 const followers = [
   { mb_nick: "Guli", following: true },
-  { mb_nick: "Dunyo", following: true },
+  { mb_nick: "Dunyo", following: false },
   { mb_nick: "Nigi", following: true },
 ];
 
@@ -33,7 +32,7 @@ export function MemberFollowers(props: any) {
               <span className={"username_text"}>USER</span>
               <span className={"name_text"}>{follower.mb_nick}</span>
             </div>
-            {props.actions_enabled &&
+            {props.action_enabled &&
               (follower.following ? (
                 <Button
                   variant={"contained"}

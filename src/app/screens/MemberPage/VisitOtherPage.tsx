@@ -16,7 +16,7 @@ import TViewer from "../../components/tuiEdetor/TViewer";
 
 export function VisitOtherPage(prop: any) {
   /** INITIALIZATIONS **/
-  const [value, setValue] = React.useState("1");
+  const [value, setValue] = React.useState("4");
 
   /** HANDLERS **/
   const handleChange = (event: any, newValue: string) => {
@@ -98,37 +98,39 @@ export function VisitOtherPage(prop: any) {
                     onChange={handleChange}
                     aria-label="lap API tabs example"
                   >
-                    <Tab
-                      style={{ flexDirection: "column" }}
-                      value={"4"}
-                      component={(e) => (
-                        <Button
-                          variant={"contained"}
-                          style={{ backgroundColor: "#f7090b8" }}
-                        >
-                          Bekor qilish
-                        </Button>
-                      )}
-                    />
+                    {true ? (
+                      <Tab
+                        style={{ flexDirection: "column" }}
+                        value={"4"}
+                        component={(e) => (
+                          <Button
+                            variant={"contained"}
+                            style={{ background: "rgba(247, 9, 9, 0.72)" }}
+                          >
+                            Bekor qilish
+                          </Button>
+                        )}
+                      />
                     ) : (
-                    <Tab
-                      style={{ flexDirection: "column" }}
-                      value={"4"}
-                      component={(e) => (
-                        <Button
-                          variant={"contained"}
-                          style={{ backgroundColor: "#30945e" }}
-                          // @ts-ignore
-                        >
-                          Folow qilish
-                        </Button>
-                      )}
-                    />
+                      <Tab
+                        style={{ flexDirection: "column" }}
+                        value={"4"}
+                        component={(e) => (
+                          <Button
+                            variant={"contained"}
+                            style={{ backgroundColor: "#30945e" }}
+                            // @ts-ignore
+                          >
+                            Folow qilish
+                          </Button>
+                        )}
+                      />
+                    )}
                   </TabList>
                 </Box>
               </Box>
 
-              <Box className={"my_page-menu"}>
+              <Box className={"my_page_menu"}>
                 <TabList
                   onChange={handleChange}
                   aria-label="lap API tabs example"
@@ -141,7 +143,7 @@ export function VisitOtherPage(prop: any) {
                         className={`menu_box ${e}`}
                         onClick={() => setValue("1")}
                       >
-                        <img src={"/icons/post.svg"} />
+                        <img src={"/icons/pencil.svg"} />
                         <span>Maqolalari</span>
                       </div>
                     )}
