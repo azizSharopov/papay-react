@@ -13,7 +13,7 @@ const TViewer = (props: any) => {
           // @ts-ignore
           ref={editorRef}
           initialValue={props.text}
-          // height={"600px"}
+          height={"600px"}
         />
       </Box>
     </Stack>

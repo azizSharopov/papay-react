@@ -101,7 +101,7 @@ export function Recommendations() {
             <Stack flexDirection={"column"}>
               <Box className="article_text">Mashhurlar</Box>
               <Stack className="celebrities_box">
-                <Box className="celebrities_box_text">Mashhurlar etirofi</Box>
+                <Box className="celebrities_box_text">Mashhurlar e'tirofi</Box>
                 <img
                   src="/auth/ulug.jpeg"
                   className="celebrities_box_img"
@@ -109,7 +109,7 @@ export function Recommendations() {
                 />
               </Stack>
               <Stack className="celebrities_box celebrities_box2">
-                <Box className="celebrities_box_text">Mashhurlar etirofi</Box>
+                <Box className="celebrities_box_text">Mashhurlar e'tirofi</Box>
                 <img
                   src="/auth/raykhon1.jpeg"
                   className="celebrities_box_img"
